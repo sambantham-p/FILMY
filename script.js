@@ -71,6 +71,13 @@ function getColor(vote) {
 
 }
 
+function GFG_click() {
+    var gfg_down =
+    document.getElementById("gfg_down");
+    gfg_down.parentNode.removeChild(gfg_down);
+}
+
+
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
 
