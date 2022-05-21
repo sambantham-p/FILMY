@@ -153,9 +153,9 @@ h3
 	padding-right: 0px;
 }
 .movie {
-  width: 35%;
-  height: 40%;
-  margin: 2rem;
+  width: 37%;
+  height: 20%;
+  margin: 1.46rem;
   border-radius: 3px;
   box-shadow: 0.2px 4px 5px rgb(0 0 0 / 10%);
   background-color: var(--secondarycolor);
