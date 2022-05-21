@@ -252,15 +252,16 @@ main
     padding-bottom: 0.1rem;
   }
 
-  #banner__description{
+  #banner__description {
     width: 20rem;
     color: #fff5e4;
     line-height: 1.5;
-    padding-top: 1rem;
-    font-size: .9rem;
-    max-width: 360px;
-    height: 80px;
+    padding-bottom: 28rem;
+    font-size: .7rem;
+    max-width: 4000px;
+    height: 100px;
   }
+
   #banner__button{
     cursor: pointer;
     color: white;
