@@ -5,7 +5,7 @@
 
 body
 {
-   background: beige;
+   background: var(--primarycolor);
    font-family: 'Poppins',sans-serif;
 
 }
@@ -20,7 +20,7 @@ body
     margin: 1rem;
     border-radius: 3px;
     box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
-    background-color: var(--secondarycolor);
+    background-color: var(--primarycolor);
     position: relative;
     overflow: hidden;
 }
@@ -80,4 +80,9 @@ main
 .movie:hover .overview
 {
     transform: translateY(0)
+}
+
+h1{
+    color: chocolate;
+    font-size:45px;
 }
