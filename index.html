@@ -32,33 +32,33 @@
 					<li class="nav-item px-2"><a class="nav-link active" href="mylist.html" target="_self">My&nbsp;List</a></li>
 					<li class="nav-item px-2">
 						<form id="form" >
-							<input type="text"  placeholder="Search..." id="search"  class="search" onclick="GFG_click()">
+							<input type="text"  placeholder="Search..." id="search"  class="search" onkeypress="GFG_click()">
 						</form>
 					</li>
 				</ul>
 			</div>
             <div class="navigation" >
-            <ul class="nav1" >
+            <ul class="collapse navbar-collapse" id="collapsibleNavbar">
 			     <li class="collapse navbar-collapse n1"><img src="notification.png" width="35px" height="35px"></li>
 			     <li class="collapse navbar-collapse n1"><img src="user.png" width="35px" height="35px"></li>
             </ul>
 			</div>
 		</nav>
 		<div id="gfg_down">
-		<header id="banner" >
+			<header id="banner" >
 				<div id="banner__contents">
 				<h1 id="banner__title"></h1>
 				<div id="banner__buttons">
 				<button id="banner__button">Overview</button>
 				<button id="banner__button1">My List</button>
 				</div>
-				<p class="col-sm" id="banner__description"></p>
+					<p class="col-sm" id="banner__description"></p>
+			    </div>
+				<div id="banner__fadeBottom">
 				</div>
-				<div id="banner__fadeBottom"></div>
-			
-		</header>
+			</header>
 		</div>
-	  
+
 		<main id="main" style="display:flex;">
 			<div class="movie">
 				<img src="flimy.png" alt="flim">
@@ -81,7 +81,7 @@
 					<span class="green">9.8</span>
 				</div>
 
-				<div class="overview">
+				<div class="overview" >
 					<h3>Overview</h3>
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Maxime quia, adipisci eum dolores accusamus <br> excepturi aut veritatis voluptate repellat rem natus neque. 
 				</div>
