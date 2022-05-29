@@ -9,22 +9,15 @@ body
 	font-family: 'Poppins',sans-serif;
 
 }
-
+.mn{
+  width: fit-content;
+}
 
  .navbar
  {
  	height: 75px;
  	margin: auto;
 	
- }
-
- .nav1{
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding-left: 0;
-  list-style: none;
-  padding-top: 16%;
  }
 
  .icon{
@@ -129,7 +122,7 @@ h3
     padding: 0.375rem 0.75rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
+    color: goldenrod;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #9d9e9f;
@@ -147,7 +140,7 @@ h3
 }
 .navigation
 {
-	padding-top: 0px;
+	padding-top: 23px;
 	float: right;
 	gap: 0.5rem;
 	padding-right: 0px;
@@ -213,11 +206,28 @@ main
     color: red;
     
 }  
+@media screen and (max-width: 40rem) {
+  .overview {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+@media (max-width: 575px) {
+  .movie{
+    width: 150px;
+  }
+}
+
+
 .overview{
+    overflow: auto;
+    scrollbar-arrow-color: #373b69;
     position: absolute;
     left:0;
+    width: min-content;
     right: 0;
     bottom: 0;
+    font-size: smaller;
     background-color:antiquewhite;
     padding: 1rem;
     max-height: 100%;
