@@ -156,7 +156,7 @@ h3
 	padding-right: 0px;
 }
 .movie {
-  width: 145px;
+  width: 200px;
   height: 20%;
   margin: 1.46rem;
   border-radius: 3px;
@@ -236,7 +236,7 @@ main
     scrollbar-arrow-color: #373b69;
     position: absolute;
     left:0;
-    width: min-content;
+    width: fit-content;
     right: 0;
     bottom: 0;
     font-size: smaller;
