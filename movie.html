@@ -4,55 +4,90 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="chrome">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	 <title>FILMY REVIEW</title>
-	 <link rel="stylesheet"  href="filmy.css" type="text/css">
+	 <title>FLIMY REVIEW</title>
+	 <link rel="stylesheet"  href="review.css" type="text/css">
+	 <link rel="icon" href="favicon.ico">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-		<h1><b> Top picks : </b></h1>
-		<br>
-		<main id="main">
-			<div class="movie">
-				<img src="flimy.png" alt="flim">
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+		<div class="icon">
+			<h2 class="logo">FLIMY</h2>
+		</div>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item px-2"><a  href="movie.html" target="_self">Movies</a></li>
+			</ul>
+		</div>
+		<div class="navigation">
+            <ul class="collapse navbar-collapse" id="collapsibleNavbar">
+				<li></li>
+				<li class="nav-item px-2">
+					<form id="form" >
+						<input type="text"  placeholder="Search..." id="search"  class="search" onkeypress="GFG_click()">
+					</form>
+				</li>
+			     <li class="collapse navbar-collapse n1"><img src="notification.png" width="35px" height="35px"></li>
+			     <li class="collapse navbar-collapse n1"><img src="user.png" width="35px" height="35px"></li>
+            </ul>
+		</div>
+	</nav>
+	<main id="main" style="display:flex;">
+		<div class="movie">
+			<img src="flimy.png" alt="flim">
 
-				<div class="movie-info">
-					<h3>Movie title</h3>
-					<span class="green">9.8</span>
-				</div>
-
-				<div class="overview">
-					<h3>Overview</h3>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Maxime quia, adipisci eum dolores accusamus <br> excepturi aut veritatis voluptate repellat rem natus neque. 
-				</div>
+			<div class="movie-info">
+				<h3>Movie title</h3>
+				<span class="green">9.8</span>
 			</div>
-			<div class="movie">
-				<img src="flimy.png" alt="flim">
 
-				<div class="movie-info">
-					<h3>Movie title</h3>
-					<span class="green">9.8</span>
-				</div>
-
-				<div class="overview">
-					<h3>Overview</h3>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Maxime quia, adipisci eum dolores accusamus <br> excepturi aut veritatis voluptate repellat rem natus neque. 
-				</div>
+			<div class="overview">
+				<h3>Overview</h3>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Maxime quia, adipisci eum dolores accusamus <br> excepturi aut veritatis voluptate repellat rem natus neque. 
 			</div>
-			<div class="movie">
-				<img src="flimy.png" alt="flim">
+		</div>
+		<div class="movie">
+			<img src="flimy.png" alt="flim">
 
-				<div class="movie-info">
-					<h3>Movie title</h3>
-					<span class="green">9.8</span>
-				</div>
-
-				<div class="overview">
-					<h3>Overview</h3>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Maxime quia, adipisci eum dolores accusamus <br> excepturi aut veritatis voluptate repellat rem natus neque. 
-				</div>
+			<div class="movie-info">
+				<h3>Movie title</h3>
+				<span class="green">9.8</span>
 			</div>
-		</main>
 
+			<div class="overview" >
+				<h3>Overview</h3>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Maxime quia, adipisci eum dolores accusamus <br> excepturi aut veritatis voluptate repellat rem natus neque. 
+			</div>
+		</div>
+		<div class="movie">
+			<img src="flimy.png" alt="flim">
+
+			<div class="movie-info">
+				<h3>Movie title</h3>
+				<span class="green">9.8</span>
+			</div>
+
+			<div class="overview">
+				<h3>Overview</h3>
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Maxime quia, adipisci eum dolores accusamus <br> excepturi aut veritatis voluptate repellat rem natus neque. 
+			</div>
+		</div>
+	</main>
+</div>
+
+  <script>
+	window.addEventListener("scroll",function(){
+
+	  var nav = document.querySelector(".nav");
+	  nav.classList.toggle("active", window.scrollY > 0);
+	}) 
+	  
+  </script>
 <script src="script.js"></script>
-
 </body>
+
 </html>
