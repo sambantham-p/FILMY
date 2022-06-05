@@ -279,9 +279,10 @@ main
     color: #fff5e4;
     line-height: 1.5;
     padding-bottom: 28rem;
-    font-size: .7rem;
+    font-size: 1rem;
     max-width: 4000px;
     height: 100px;
+    opacity:0.9
   }
 
   #banner__button{
