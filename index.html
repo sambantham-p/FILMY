@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="chrome">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	 <title>FILMY REVIEW</title>
+	 <title>FLIMY REVIEW</title>
 	 <link rel="stylesheet"  href="review.css">
 	 <link rel="icon" href="favicon.ico">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet">
 	 <link href="https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet">
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
@@ -30,18 +31,23 @@
 					<li class="nav-item px-2"><a href="show.html" target="_self">TV&nbsp;Shows</a></li>
 					<li class="nav-item px-2"><a href="movie.html" target="_self">Movies</a></li>
 					<li class="nav-item px-2"><a href="mylist.html" target="_self">My&nbsp;List</a></li>
+
 					<li class="nav-item px-2">
-						<form id="form" >
+						<form id="form" class="form">
 							<input type="text"  placeholder="Search..." id="search"  class="search" onkeypress="GFG_click()">
+							
+							<i class="fa fa-search me-4 text-white fs-sm-4 ms-3" href="#">
+							</i>
 						</form>
 					</li>
 				</ul>
 			</div>
             <div class="navigation" >
-            <ul class="collapse navbar-collapse" id="collapsibleNavbar">
-			     <li class="collapse navbar-collapse n1"><img src="notification.png" width="35px" height="35px"></li>
-			     <li class="collapse navbar-collapse n1"><img src="user.png" width="35px" height="35px"></li>
-            </ul>
+				<ul class="collapse navbar-collapse" id="collapsibleNavbar1">
+					
+			    	<li class="collapse navbar-collapse n1"><i class="material-icons" style="font-size:46px">add_alert</i></li>
+			     	<li class="collapse navbar-collapse n1"><i class="material-icons" style="font-size:46px">perm_identity</i></li>
+            	</ul>
 			</div>
 		</nav>
 		<div id="gfg_down">
@@ -100,7 +106,7 @@
 			</div>
 		</main>
     </div>
-
+	
 	  <script>
 		window.addEventListener("scroll",function(){
   
@@ -111,6 +117,37 @@
 	  </script>
 <script src="script.js"></script>
 </body>
-
+<div class="footer-dark">
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6 col-md-3 item">
+					<h3>Services</h3>
+					<ul>
+						<li><a href="#">Web design</a></li>
+						<li><a href="#">Development</a></li>
+						<li><a href="#">Hosting</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-md-3 item">
+					<h3>About</h3>
+					<ul>
+						<li><a href="#">Company</a></li>
+						<li><a href="#">Team</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 item text">
+					<h3>Company Name</h3>
+					<p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+				</div>
+				<div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+			</div>
+			<p class="copyright">Company Name © 2018</p>
+		</div>
+	</footer>
+</div>
 </html>
+
+
 
