@@ -317,14 +317,9 @@ main
     background-color: #e6e6e6;
     transition: all .3s;
   }
-  #banner__fadeBottom{
-    height: 7.4rem;
-    background: linear-gradient(
-      180deg,
-      transparent,
-      rgba(37,37,37, .61),
-      #111
-    );
+  #banner__fadeBottom {
+    height: 20rem;
+    background: linear-gradient( 355deg, transparent, rgb(37 37 37 / 61%), #111 );
   }
 
   .fa{
