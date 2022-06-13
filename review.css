@@ -326,10 +326,7 @@ main
     padding:5px;
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: 31px;
     text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     border-radius: 15px;
   }
   
@@ -437,4 +434,5 @@ color: white;
 
 .social{
   word-spacing: 5px;
+  font-size:30px;
 }
