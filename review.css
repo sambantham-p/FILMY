@@ -321,6 +321,11 @@ main
     height: 20rem;
     background: linear-gradient( 355deg, transparent, rgb(37 37 37 / 61%), #111 );
   }
+   
+  .foot{
+    font-family: 'FontAwesome'; 
+     word-spacing:2px;
+   }
 
   .fa{
     padding:5px;
@@ -334,7 +339,6 @@ main
   .row{
     margin-left: 20px;
     color: white;
-    font-family: 'FontAwesome';
   }
   .row__poster{
     object-fit: contain;
