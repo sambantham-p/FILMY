@@ -322,9 +322,8 @@ main
     background: linear-gradient( 355deg, transparent, rgb(37 37 37 / 61%), #111 );
   }
    
-  .foot{
-    font-family: 'FontAwesome'; 
-     word-spacing:2px;
+  .mt-3 {
+    font-family: 'FontAwesome';
    }
 
   .fa{
@@ -442,9 +441,7 @@ color: white;
   word-spacing: 5px;
   font-size:30px;
 }
-.mt-3{
-font-family: sans-serif;
-}
+
 
 .text-uppercase {
     text-transform: uppercase!important;
